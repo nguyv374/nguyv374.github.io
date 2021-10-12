@@ -176,19 +176,6 @@ h1:hover {
   animation: bounce 1s;
 }
 
-.imgfilters img {
-  display: block;
-  margin: 0 auto;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  padding: 60px 0 60px 0;
-}
-
-.imgfilters img:hover {
-  filter: none;
-  cursor: pointer;
-}
-
 
 :root {
   --mainColor4: #4C9375;
