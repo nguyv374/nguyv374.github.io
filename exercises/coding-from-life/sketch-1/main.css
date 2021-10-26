@@ -1,0 +1,135 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: tan;
+  margin: 30px auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+
+.table {
+  z-index: 1;
+  background: antiquewhite;
+  position: absolute;
+  width: 1300px;
+  height: 450px;
+  transform: skew(-50deg);
+  top: 150px;
+}
+
+.squash-main {
+  z-index: 6;
+  background: lightgoldenrodyellow;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  border-radius: 100px / 50px;
+  top: 250px;
+  left: 250px;
+}
+
+.pumpkin-bottom {
+  z-index: 5;
+  background: orange;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  border-radius: 300px / 200px;
+  top: 150px;
+  left: 130px;
+}
+
+.pumpkin-top {
+  z-index: 5;
+  background: orange;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 120px;
+  left: 205px;
+}
+
+.squash-back-body {
+  z-index: 2;
+  background: yellow;
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  border-radius: 300px / 200px;
+  top: 160px;
+  left: 370px;
+}
+
+.squash-back-top {
+  z-index: 2;
+  background: yellow;
+  position: absolute;
+  width: 80px;
+  height: 50px;
+  border-radius: 50%;
+  top: 180px;
+  left: 430px;
+  transform: rotate(-15deg);
+}
+
+
+.vase {
+  z-index: 4;
+  background: lightblue;
+  opacity: 50%;
+  position: absolute;
+  width: 85px;
+  height: 200px;
+  border-radius-bottom-left: 50%;
+  border-radius-bottom-right: 50%;
+  top: 10px;
+  left: 330px;
+}
+
+.vase-stem {
+  z-index: 4;
+  background: lightblue;
+  opacity: 50%;
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  border-radius-bottom-left: 50%;
+  border-radius-bottom-right: 50%;
+  top: 210px;
+  left: 355px;
+}
+
+.vase-bottom {
+  z-index: 4;
+  background: lightblue;
+  opacity: 50%;
+  position: absolute;
+  width: 85px;
+  height: 50px;
+  border-radius: 100px / 50px;
+  top: 230px;
+  left: 330px;
+}
+
+.pot-bottom {
+  
+}
+
+
+
+
+
