@@ -1,45 +1,15 @@
-#yin-yang {
-	height: 500px;
 
+.heart {
+  fill: red;
+  position: relative;
+  top: 5px;
+  width: 50px;
+  animation: pulse 1s ease infinite;
 }
 
-body {
-  background-color: pink;
-  font-family: arial;
-  color: red;
-  font-size: 100px;
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.item {
-  text-align: center;
-}
-
-
-@keyframes spinType {
-  0% {
-    transform: rotate(0.5turn);
-  }
-  60% {
-    transform: rotate(0.7turn);
-  }
-  100% {
-    transform: rotate(1turn);
-  }
-}
-
-@keyframes yinyangSpin {
-  0% {
-    transform: rotate(0turn);
-  }
-  100% {
-    transform: rotate(1turn);
-  }
-}
