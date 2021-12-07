@@ -39,19 +39,6 @@
   height: 620px;
 }
 
-.white-image {
-  object-fit: cover;
-  width: 900px;
-  height: 620px;
-  border: solid black 1px;
-}
-
-.image2 {
-  object-fit: contain;
-  width: 900px;
-  height: 620px;
-}
-
 .desc {
   vertical-align: top;
   margin-left: 43px;
@@ -90,7 +77,23 @@
   opacity: 0;
 }
 
-.clock {
+.hover {
+  display: flex;
+  position: absolute;
+  margin-left: 250px;
+  margin-right: 20px;
+  opacity: 0;
+}
+
+.wikipedia {
+  display: flex;
+  position: absolute;
+  margin-left: 250px;
+  margin-right: 20px;
+  opacity: 0;
+}
+
+.coding-from-life {
   display: flex;
   position: absolute;
   margin-left: 250px;
@@ -106,7 +109,7 @@
   opacity: 0;
 }
 
-.flexbox-poster {
+.javascript-sketch {
   display: flex;
   position: absolute;
   margin-left: 250px;
@@ -114,7 +117,7 @@
   opacity: 0;
 }
 
-.hover {
+.p5 {
   display: flex;
   position: absolute;
   margin-left: 250px;
@@ -122,29 +125,6 @@
   opacity: 0;
 }
 
-.interview {
-  display: flex;
-  position: absolute;
-  margin-left: 250px;
-  margin-right: 20px;
-  opacity: 0;
-}
-
-.jquery {
-  display: flex;
-  position: absolute;
-  margin-left: 250px;
-  margin-right: 20px;
-  opacity: 0;
-}
-
-.wikipedia {
-  display: flex;
-  position: absolute;
-  margin-left: 250px;
-  margin-right: 20px;
-  opacity: 0;
-}
 
 /*===== HOVER =====*/
 
