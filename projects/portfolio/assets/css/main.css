@@ -1,0 +1,927 @@
+
+
+
+.container {
+  font-family: 'hero-new-hairline', sans-serif;
+  font-size: 20pt;
+  font-weight: 400;
+  transition: background-color 0.5s;
+}
+
+
+.header {
+  display: flex;
+  margin: 20px 20px 60px 20px;
+  font-family: 'hero-new-hairline', sans-serif;
+  font-size: 30pt;
+  font-weight: 900;
+}
+
+
+.right-header {
+  margin-left: auto;
+}
+
+.projects {
+  margin-right: auto;
+  line-height: 35px;
+  width: 200px;
+}
+
+.exercises {
+  line-height: 35px;
+  margin-left: auto;
+  width: 200px;
+  text-align: right;
+}
+
+.home {
+
+}
+
+  
+
+
+/*===== PAGES =====*/
+
+.image {
+  object-fit: cover;
+  width: 900px;
+  height: 620px;
+}
+
+.white-image {
+  object-fit: cover;
+  width: 900px;
+  height: 620px;
+  border: solid black 1px;
+}
+
+.image2 {
+  object-fit: contain;
+  width: 900px;
+  height: 620px;
+}
+
+.desc {
+  vertical-align: top;
+  margin-left: 43px;
+  margin-top: 0;
+  width: 40%;
+}
+
+.desc2 {
+  vertical-align: top;
+  margin-left: 43px;
+  margin-top: 35px;
+  width: 40%;
+}
+
+.news-room {
+  display: flex;
+  position: absolute;
+  margin-left: 250px;
+  margin-right: 20px;
+  opacity: 0;
+}
+
+.fan-page {
+  display: flex;
+  position: absolute;
+  margin-left: 250px;
+  margin-right: 20px;
+  opacity: 0;
+}
+
+.helpful-app {
+  display: flex;
+  position: absolute;
+  margin-left: 250px;
+  margin-right: 20px;
+  opacity: 0;
+}
+
+.clock {
+  display: flex;
+  position: absolute;
+  margin-left: 250px;
+  margin-right: 20px;
+  opacity: 0;
+}
+
+.css-animation {
+  display: flex;
+  position: absolute;
+  margin-left: 250px;
+  margin-right: 20px;
+  opacity: 0;
+}
+
+.flexbox-poster {
+  display: flex;
+  position: absolute;
+  margin-left: 250px;
+  margin-right: 20px;
+  opacity: 0;
+}
+
+.hover {
+  display: flex;
+  position: absolute;
+  margin-left: 250px;
+  margin-right: 20px;
+  opacity: 0;
+}
+
+.interview {
+  display: flex;
+  position: absolute;
+  margin-left: 250px;
+  margin-right: 20px;
+  opacity: 0;
+}
+
+.jquery {
+  display: flex;
+  position: absolute;
+  margin-left: 250px;
+  margin-right: 20px;
+  opacity: 0;
+}
+
+.wikipedia {
+  display: flex;
+  position: absolute;
+  margin-left: 250px;
+  margin-right: 20px;
+  opacity: 0;
+}
+
+/*===== HOVER =====*/
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+/*======== MEDIA 1 =========*/
+
+@media (max-width: 1500px) {
+  .image {
+    object-fit: cover;
+    width: 800px;
+    height: 500px;
+  }
+
+  .white-image {
+    object-fit: cover;
+    width: 800px;
+    height: 500px;
+    border: solid black 1px;
+  }
+
+  .image2 {
+    object-fit: contain;
+    width: 800px;
+    height: 500px;
+  }
+
+  .desc2 {
+    vertical-align: top;
+    margin-left: 43px;
+    margin-top: 20px;
+    width: 40%;
+  }
+}
+
+/*========= MEDIA 2 =========*/
+
+@media (max-width: 1400px) {
+  .image {
+    object-fit: cover;
+    width: 700px;
+    height: 400px;
+  }
+
+  .white-image {
+    object-fit: cover;
+    width: 700px;
+    height: 400px;
+    border: solid black 1px;
+  }
+
+  .image2 {
+    object-fit: contain;
+    width: 700px;
+    height: 400px;
+  }
+
+  .desc2 {
+    vertical-align: top;
+    margin-left: 43px;
+    margin-top: 15px;
+    width: 40%;
+  }
+}
+
+/*========= MEDIA 3 =========*/
+
+@media (max-width: 1300px) {
+  .image {
+    object-fit: cover;
+    width: 700px;
+    height: 400px;
+  }
+
+  .white-image {
+    object-fit: cover;
+    width: 700px;
+    height: 400px;
+    border: solid black 1px;
+  }
+
+  .image2 {
+    object-fit: contain;
+    width: 700px;
+    height: 400px;
+  }
+
+  .desc {
+    margin: 20px 20px 0 0;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .desc2 {
+    margin: 20px 20px 0 0;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .news-room {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .fan-page {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .helpful-app {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .clock {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .css-animation {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .flexbox-poster {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .hover {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .interview {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .jquery {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .wikipedia {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+}
+
+/*========= MEDIA 4 =========*/
+
+@media (max-width: 1100px) {
+  .image {
+    object-fit: cover;
+    width: 700px;
+    height: 400px;
+  }
+
+  .white-image {
+    object-fit: cover;
+    width: 700px;
+    height: 400px;
+    border: solid black 1px;
+  }
+
+  .image2 {
+    object-fit: contain;
+    width: 700px;
+    height: 400px;
+  }
+
+  .desc {
+    margin: 20px 20px 0 0;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .desc2 {
+    margin: 20px 20px 0 0;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .news-room {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .fan-page {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .helpful-app {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .clock {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .css-animation {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .flexbox-poster {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .hover {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .interview {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .jquery {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .wikipedia {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+}
+
+/*========= MEDIA 5 =========*/
+
+@media (max-width: 1000px) {
+  .image {
+    object-fit: cover;
+    width: 600px;
+    height: 400px;
+  }
+
+  .white-image {
+    object-fit: cover;
+    width: 600px;
+    height: 400px;
+    border: solid black 1px;
+  }
+
+  .image2 {
+    object-fit: contain;
+    width: 600px;
+    height: 400px;
+  }
+
+  .desc {
+    margin: 20px 20px 0 0;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .desc2 {
+    margin: 20px 20px 0 0;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .news-room {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .fan-page {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .helpful-app {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .clock {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .css-animation {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .flexbox-poster {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .hover {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .interview {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .jquery {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .wikipedia {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+}
+
+/*========= MEDIA 6 =========*/
+
+@media (max-width: 900px) {
+  .projects {
+    margin: 0 0 35px 20px;
+    font-size: 18px;
+    line-height: 30px;
+    width: 140px;
+  }
+
+  .exercises {
+    font-size: 18px;
+    line-height: 30px;
+    width: 140px;
+  }
+
+  .image {
+    object-fit: cover;
+    width: 500px;
+    height: 300px;
+    margin: 0 20px 0 0;
+  }
+
+  .white-image {
+    object-fit: cover;
+    width: 500px;
+    height: 300px;
+    margin: 0 20px 0 0;
+    border: solid black 1px;
+  }
+
+  .image2 {
+    object-fit: contain;
+    width: 500px;
+    height: 300px;
+    margin: 0 20px 0 0;
+  }
+
+  .desc {
+    margin: 20px 20px 0 0;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .desc2 {
+    margin: 20px 20px 0 0;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .news-room {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .fan-page {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .helpful-app {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .clock {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .css-animation {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .flexbox-poster {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .hover {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .interview {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .jquery {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .wikipedia {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+}
+
+/*========= MEDIA 7 =========*/
+
+@media (max-width: 800px) {
+  .projects {
+    margin: 0 0 35px 20px;
+    font-size: 14px;
+    line-height: 24px;
+    width: 105px;
+  }
+
+  .exercises {
+    font-size: 14px;
+    line-height: 24px;
+    width: 105px;
+  }
+
+  .image {
+    object-fit: cover;
+    width: 350px;
+    height: 250px;
+    margin: 0 20px 0 0;
+  }
+
+  .white-image {
+    object-fit: cover;
+    width: 350px;
+    height: 250px;
+    margin: 0 20px 0 0;
+    border: solid black 1px;
+  }
+
+  .image2 {
+    object-fit: contain;
+    width: 350px;
+    height: 250px;
+    margin: 0 20px 0 0;
+  }
+
+  .desc {
+    margin: 20px 20px 0 0;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .desc2 {
+    margin: 20px 20px 0 0;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .news-room {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .fan-page {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .helpful-app {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .clock {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .css-animation {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .flexbox-poster {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .hover {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .interview {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .jquery {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .wikipedia {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+}
+
+/*========= MEDIA 8 =========*/
+
+@media (max-width: 550px) {
+  .projects {
+    margin: 0 0 25px 20px;
+    font-size: 12px;
+    line-height: 20px;
+    width: 105px;
+  }
+
+  .exercises {
+    font-size: 12px;
+    line-height: 20px;
+    width: 105px;
+  }
+
+  .image {
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+    margin: 0 20px 0 0;
+  }
+
+  .white-image {
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+    margin: 0 20px 0 0;
+    border: solid black 1px;
+  }
+
+  .image2 {
+    object-fit: contain;
+    width: 300px;
+    height: 200px;
+    margin: 0 20px 0 0;
+  }
+
+  .desc {
+    margin: 20px 20px 0 0;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .desc2 {
+    margin: 20px 20px 0 0;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .news-room {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .fan-page {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .helpful-app {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .clock {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .css-animation {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .flexbox-poster {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .hover {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .interview {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .jquery {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .wikipedia {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+  }
+}
