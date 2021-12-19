@@ -34,7 +34,6 @@
 /*===== PAGES =====*/
 
 .image {
-  object-fit: cover;
   width: 900px;
   height: 620px;
 }

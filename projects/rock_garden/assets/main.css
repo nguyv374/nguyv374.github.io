@@ -5,16 +5,23 @@
   box-sizing: border-box;
 }
 
+
 html {
   font-family: "Montserrat";
 }
 
+body {
+  color: white;
+}
+
 .header {
   text-align: center;
-  background-color: #DDC4A8;
-  font-family: 'Dekko';
-  font-size: 30px;
+  background-color: #8a6c4a;
+  font-size: 40px;
+  font-family: "Rancho"
 }
+
+
 
 .container {
   min-height: 100vh;
@@ -24,7 +31,6 @@ html {
   justify-content: center;
   padding: 100px 0;
   background-image: url('images/background.jpeg');
-
 }
 
 .timeline {
@@ -41,7 +47,7 @@ html {
 
 .timeline ul li {
   padding: 20px;
-  background-color: #DDC4A8;
+  background-color: #8a6c4a;
   color: white;
   border-radius: 10px;
   margin-bottom: 20px;
