@@ -1,0 +1,59 @@
+body {
+	background-color: lightgray;
+	background-opacity: 50%;
+	font-family: 'hero-new-hairline', sans-serif;
+	font-size: 12pt;
+}
+
+h1{
+	font-size: 36pt;
+	font-weight: 1000;
+}
+
+h3{
+	background-color: #967259;
+	font-size: 16pt;
+}
+
+ul{
+	list-style-type: circle;
+}
+
+ol{
+	list-style-type: circle;
+}
+
+.cream {
+    background-color: #ece0d1;
+}
+
+.beige {
+    background-color: #dbc1ac;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	font-style: italic;
+}
+
+.dig-photo-archive{
+	margin-left: 30%;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+}
+
+blockquote p {
+	margin-right: 20%;
+    padding: 10px;
+    background-color: 	#e4d5b7;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+
