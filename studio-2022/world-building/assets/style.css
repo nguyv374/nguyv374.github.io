@@ -1,0 +1,28 @@
+body {
+	background-color: lightgray;
+}
+
+#two-column {
+	max-width: 1000px;
+	margin: 0px auto 0 auto;
+	line-height: 1.65;
+	padding: 20px 50px;
+	display: flex;
+	align-content: center;
+}
+
+
+.left {
+	width: 50%;
+	order: 1;
+	padding: 5px;
+	flex: inherit;
+}
+
+
+.right {
+	width: 50%;
+	order: 2;
+	padding: 5px;
+	flex: inherit;
+}
