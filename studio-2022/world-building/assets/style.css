@@ -2,27 +2,26 @@ body {
 	background-color: lightgray;
 }
 
-#two-column {
-	max-width: 1000px;
-	margin: 0px auto 0 auto;
-	line-height: 1.65;
-	padding: 20px 50px;
-	display: flex;
-	align-content: center;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-
-.left {
-	width: 50%;
-	order: 1;
-	padding: 5px;
-	flex: inherit;
+li {
+  float: left;
 }
 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-.right {
-	width: 50%;
-	order: 2;
-	padding: 5px;
-	flex: inherit;
+li a:hover {
+  background-color: #111;
 }
