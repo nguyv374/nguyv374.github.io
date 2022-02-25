@@ -1,0 +1,144 @@
+body{
+  background-color: #470D21;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1{
+  color: #CC956A;
+  font-size: 50px;
+  margin: 50px;
+  margin-bottom: 0;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 2px;
+}
+
+
+h2{
+  color: #D4D4D4;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 5px;
+}
+
+
+p{
+  color: #D4D4D4;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 25px;
+}
+
+
+
+
+
+/* Small devices (portrait tablets) */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: #900C3F;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    color: #99671C;
+  }
+
+  h2 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #B4B4B4;
+  }
+
+  p {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #B4B4B4;
+  }
+}
+
+
+/* Medium devices (small screens/laptops) */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: #FC9D9D;
+  }
+
+  h1 {
+    font-family: 'Yellowtail', cursive;
+    color: #6B4722;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: 'Lato', sans-serif;
+    color: #909090;
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Lato', sans-serif;
+    color: #909090;
+  }
+}
+    
+
+/* Large devices (large screens/desktops) */
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: #FFCAC2;
+  }
+
+  h1 {
+    font-family: 'Lora', serif;
+    color: #815E3F;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #636363;
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Poppins', sans-serif;
+    color: #636363;
+  }
+}
+
+
+/* Extra large devices (extra large screens/tv) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: #CCAFAF;
+  }
+
+  h1 {
+    font-family: 'Great Vibes', cursive;
+    color: #523831;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #494848;
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    color: #494848;
+  }
+}
+
+
+
+
+
+
