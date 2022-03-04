@@ -1,55 +1,37 @@
 body {
-	background-color: #333;
-	color: white;
+	background-color: black;
+	color: lightgray;
 	font-family: 'Roboto Serif', sans-serif;
 }
 
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+.left {
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 20%;
+  line-height: 26px;
 }
 
-li {
-  float: left;
+.right {
+  text-align: right;
+  margin-right: 30px;
+  margin-left: 20%;
+  line-height: 26px;
 }
 
-li a {
-  display: block;
+.red {
+  color: red;
+}
+
+.purple {
+  color: rebeccapurple;
+  font-size: 24px;
+}
+
+.italics {
   color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  font-style: italic;
+  font-size: 20px;
 }
-
-li a:hover {
-  background-color: #111;
-}
-
-
-
-
-.image2{
-
-}
-
-h2 {
-	font-size: 20px;
-}
-
-
-h3 {
-	font-size: 12px;
-}
-
-p {
-	font-size: 14px;
-}
-
 
 
 .replies {

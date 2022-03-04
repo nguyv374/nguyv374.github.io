@@ -1,0 +1,9 @@
+body {
+	background-color: hotpink;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin: 50px;
+}
