@@ -1,9 +1,12 @@
 body {
 	background-color: hotpink;
+	margin: 0;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
 img {
 	max-width: 100%;
 	height: auto;
-	margin: 50px;
+	margin: 0px;
 }
