@@ -33,7 +33,39 @@ body {
   font-size: 20px;
 }
 
+.comments {
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 20%;
+  line-height: 26px;
+}
+
 
 .replies {
 	margin-left: 50px;
 }
+
+
+@keyframes replies { /* flame pulses */
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+.replies-1 {
+    opacity:1;  
+    animation: replies 5s infinite;
+}
+.replies-2 {
+    opacity:1;  
+    animation: replies 5s infinite;
+    animation-delay: 2s;
+}
+.replies-3 {
+    opacity:1;  
+    animation: replies 5s infinite;
+    animation-delay: 3s;
+}
+
+
+
+
