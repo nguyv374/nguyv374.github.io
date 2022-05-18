@@ -33,6 +33,11 @@ body {
   font-size: 20px;
 }
 
+
+
+
+
+
 .comments {
   text-align: left;
   margin-left: 30px;
@@ -40,11 +45,9 @@ body {
   line-height: 26px;
 }
 
-
 .replies {
 	margin-left: 50px;
 }
-
 
 @keyframes replies { /* flame pulses */
   0%   { opacity:1; }
