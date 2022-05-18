@@ -1,13 +1,21 @@
-console.log("Hello bookshelf");
+console.log("Hello bookshelf!");
+
+// other data (animation effect)
 
 // airtable data
+
 var Airtable = require("airtable");
 console.log(Airtable);
 
 var Airtable = require('airtable');
 var base = new Airtable({apiKey: 'key4FsdtvOImxmMI2'}).base('appI74Tya8PLZfycn');
 
-base("books").select({}).eachPage(gotPageOfBooks, gotAllBooks);
+// base("books").select({}).eachPage(gotPageOfBooks, gotAllBooks);
+
+base("books").select({
+  view: "classic"
+}).eachPage(gotPageOfBooks, gotAllBooks);
+
 
 // an empty array to hold our book data
 const books = [];
@@ -35,14 +43,8 @@ function gotAllBooks(err) {
   // call function to show the books
   showBooks();
 }
-
-
-
-
-
-
-
-
+  
+/////////////////////////////////////////////////////////////////////////////////
 
 console.log(books);
 
@@ -63,7 +65,6 @@ function showBooks() {
     div.addEventListener("click", () => {
       showBook(book, div);
       // set the background and links to the same random color
-      let color = getRandomColor();
       document.querySelector("html").style.backgroundColor= color;
     });
     // put the newly created book spine on the shelf
@@ -86,15 +87,14 @@ function showBook(book, div) {
 
   // populate the template with the data in the provided book
   bookDetail.getElementsByClassName("title")[0].innerText = book.fields.title; 
-  bookDetail.getElementsByClassName("author")[0].innerText = "By " + book.fields.author; 
+  bookDetail.getElementsByClassName("author")[0].innerText = book.fields.author; 
+  bookDetail.getElementsByClassName("type")[0].innerText = "status: " + book.fields.type; 
   bookDetail.getElementsByClassName("description")[0].innerText =
     book.fields.description;
+
   bookDetail.getElementsByClassName("more")[0].href = book.fields.more;
   bookDetail.getElementsByClassName("cover-image")[0].src =
     book.fields.cover_image[0].url;
-
-  // randomly rotate the cover image a little
-  document.querySelector(".cover-image").style.transform = getRandomRotation();
 
   // remove the .active class from any book spines that have it...
   const shelf = document.getElementById("shelf");
@@ -125,12 +125,11 @@ function hideBook(book, div) {
   }
 }
 
-function getRandomColor() {
-  return 'hsla(' + (Math.random() * 360) + ', 95%, 75%, 1)';
-}
+var typed = new Typed(".auto-type", {
+  strings:["favorites", "current reads", "future reads"],
+  typespeed: 30, 
+  backspeed: 100,
+  loop: true
+})
 
-function getRandomRotation() {
-  let min = -5;
-  let max = 5;
-  return 'rotate(' + (Math.random() * (max - min) + min) + 'deg)';
-}
+

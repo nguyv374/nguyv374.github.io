@@ -2,3 +2,31 @@ body {
 	background-color: beige;
 	font-family: 'Permanent Marker', cursive;
 }
+
+.hidden {
+	display: none !important;
+}
+
+.cover-image {
+	width: 10%;
+	height: auto;
+}
+
+.shelf {
+	border-bottom: 10px solid black;
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 2em;
+}
+
+.shelf .book-spine {
+	background: black;
+	color: white;
+
+	height: fit-content;
+	width: 30px;
+	padding: 10px 0px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	transform: rotate(180deg);
+}
